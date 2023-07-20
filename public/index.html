@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lembretes App</title>
+  <link rel="stylesheet" href="./styles/styles.scss"> 
 </head>
 <body>
-  <div id="root"></div>
+  <header>
+    <h1>Lembretes App</h1>
+  </header>
+
+  <main>
+    <section id="add-reminder">
+      <h2>Adicionar Lembrete</h2>
+      <form id="reminder-form">
+        <label for="reminder-name">Nome:</label>
+        <input type="text" id="reminder-name" required>
+        
+        <label for="reminder-date">Data:</label>
+        <input type="date" id="reminder-date" required>
+        
+        <button type="submit">Criar</button>
+      </form>
+    </section>
+
+    <section id="reminders-list">
+      <h2>Lista de Lembretes</h2>
+      <div id="reminders-container">
+        <!-- here will be displayed the added reminders -->
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/main.js"></script> 
 </body>
 </html>
