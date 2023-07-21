@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lembretes App</title>
-  <link rel="stylesheet" href="./styles/styles.scss"> 
+  <link rel="stylesheet" href="../styles/styles.css">  
 </head>
 <body>
   <header>
@@ -22,18 +22,18 @@
         <input type="date" id="reminder-date" required>
         
         <button type="submit">Criar</button>
+        <p id="error-message"></p> <!-- error -->
       </form>
     </section>
 
     <section id="reminders-list">
       <h2>Lista de Lembretes</h2>
       <div id="reminders-container">
-        <!-- here will be displayed the added reminders -->
+        <!-- reminders added -->
       </div>
     </section>
   </main>
-  
 
-  <script src="./js/main.js"></script> 
+  <script src="../src/js/main.js"></script>
 </body>
 </html>
