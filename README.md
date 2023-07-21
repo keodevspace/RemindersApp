@@ -1,6 +1,6 @@
 <h1>Lembretes App - Desenvolvimento Front-end </h1>
 
-Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de Desenvolvimento Front-end. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript puro, HTML e CSS, com a possibilidade de adicionar, listar e remover lembretes.
+Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvimento Front-end. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript puro, HTML e CSS, com a possibilidade de adicionar, listar e remover lembretes.
 
 <h3>Funcionalidades Implementadas</h3>
 
