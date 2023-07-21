@@ -14,7 +14,7 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvime
 <h3>Funcionalidades Extras (Bônus) </h3>
 
 - Testes unitários automatizados para o front-end.
-- •	Utilização de CSS/SCSS modules.
+- Utilização de CSS/SCSS modules.
 
 <h3>Estrutura do Projeto</h3>
 
