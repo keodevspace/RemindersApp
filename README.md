@@ -1,8 +1,8 @@
-#Lembretes App - Teste de Desenvolvimento Front-end
+<h1>Lembretes App - Desenvolvimento Front-end </h1>
 
 Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de Desenvolvimento Front-end. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript puro, HTML e CSS, com a possibilidade de adicionar, listar e remover lembretes.
 
-#Funcionalidades Implementadas
+<h3>Funcionalidades Implementadas</h3>
 
 - Adicionar um novo lembrete informando nome e data.
 - Validar os campos "Nome" e "Data" do lembrete antes de adicionar.
@@ -11,11 +11,11 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de 
 - Deletar um lembrete ao clicar no botão "x" ao lado dele.
 - Responsividade para diferentes tamanhos de tela (desktop, mobile e tablet).
 
-#Funcionalidades Extras (Bônus)
+<h3>Funcionalidades Extras (Bônus) </h3>
 
 - Testes unitários automatizados para o front-end.
 
-#Estrutura do Projeto
+<h3>Estrutura do Projeto</h3>
 
 - index.html: Página principal do sistema.
 - styles: Diretório contendo o arquivo de estilos CSS (styles.css) para a estilização do projeto.
@@ -26,24 +26,24 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de 
 - services: Diretório contendo os arquivos responsáveis por interações com a API RESTful (caso opte pela implementação do bônus).
 - Instruções para Executar o Sistema
 
-#Clone o repositório para o seu ambiente local utilizando o comando:
+<h3>Clone o repositório para o seu ambiente local utilizando o comando:</h3>
 
 - git clone <URL_DO_REPOSITORIO>
 - Abra o arquivo index.html no seu navegador web.
 - O sistema estará funcionando e você poderá adicionar, listar e remover lembretes.
 
-# Dependências
+<h3>Dependências</h3>
 
 O projeto foi desenvolvido utilizando apenas JavaScript puro, HTML e CSS, portanto, não são necessárias dependências adicionais.
 
-# Autor
+<h3>Autor</h3>
 
 Este projeto foi desenvolvido por keodevspace, Keo Coelho, como parte do teste de Desenvolvimento Front-end.
 
-# Contato
+<h3>Contato</h3>
 
 Em caso de dúvidas ou mais informações sobre o projeto, entre em contato por e-mail em [keoxcoelho@gmail.com].
 
-# Observações Finais
+------------------------------------------------------------
 
-Obrigado por acessar meu projeto. 
+<h2>Obrigado por acessar meu projeto.🤓</h2> 
