@@ -3,19 +3,25 @@
 document.addEventListener('DOMContentLoaded', () => {
     const reminderForm = document.getElementById('reminder-form');
     const errorMessage = document.getElementById('error-message');
+    const remindersContainer = document.getElementById('reminders-container');
+    const localStorageKey = 'lembretes';
+  
+   
+    const savedReminders = JSON.parse(localStorage.getItem(localStorageKey)) || [];
+    savedReminders.forEach((reminder) => addReminderToList(reminder.name, reminder.date));
   
     reminderForm.addEventListener('submit', (event) => {
       event.preventDefault();
       const reminderName = document.getElementById('reminder-name').value;
       const reminderDate = document.getElementById('reminder-date').value;
   
-      // Validar se o campo "Nome" está preenchido
+      
       if (!reminderName) {
         errorMessage.textContent = 'O campo "Nome" deve estar preenchido.';
         return;
       }
   
-      // Validar se o campo "Data" está preenchido e é uma data válida no futuro
+      
       const currentDate = new Date();
       const selectedDate = new Date(reminderDate);
       if (!reminderDate || selectedDate <= currentDate) {
@@ -23,26 +29,50 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
   
-      // Se os campos são válidos, limpar a mensagem de erro e adicionar o lembrete à lista
+      
       errorMessage.textContent = '';
       addReminderToList(reminderName, reminderDate);
       reminderForm.reset();
+  
+      
+      const reminderData = { name: reminderName, date: reminderDate };
+      savedReminders.push(reminderData);
+      localStorage.setItem(localStorageKey, JSON.stringify(savedReminders));
     });
   
     function addReminderToList(name, date) {
-      const remindersContainer = document.getElementById('reminders-container');
       const reminderItem = document.createElement('div');
       reminderItem.classList.add('reminder-item');
       reminderItem.innerHTML = `
         <span><strong>${name}</strong> - ${date}</span>
         <span class="delete-btn" onclick="deleteReminder(this)">x</span>
       `;
-      remindersContainer.appendChild(reminderItem);
+  
+      
+      const currentDate = new Date();
+      const selectedDate = new Date(date);
+      if (selectedDate < currentDate) {
+      
+        remindersContainer.insertBefore(reminderItem, remindersContainer.firstChild);
+      } else {
+        
+        remindersContainer.appendChild(reminderItem);
+      }
     }
   });
   
   function deleteReminder(deleteButton) {
     const reminderItem = deleteButton.parentNode;
     reminderItem.parentNode.removeChild(reminderItem);
+  
+   
+    const localStorageKey = 'lembretes';
+    const savedReminders = JSON.parse(localStorage.getItem(localStorageKey)) || [];
+    const reminderName = reminderItem.querySelector('strong').textContent;
+    const reminderDate = reminderItem.querySelector('span').textContent.split(' - ')[1];
+    const updatedReminders = savedReminders.filter(
+      (reminder) => reminder.name !== reminderName || reminder.date !== reminderDate
+    );
+    localStorage.setItem(localStorageKey, JSON.stringify(updatedReminders));
   }
-
+  
