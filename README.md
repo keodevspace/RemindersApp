@@ -40,7 +40,7 @@ Este projeto foi desenvolvido por keodevspace, Keo Coelho, como parte do teste d
 
 <h3>Contato</h3>
 
-Em caso de dúvidas ou mais informações sobre o projeto, entre em contato por e-mail em [keoxcoelho@gmail.com].
+Em caso de dúvidas ou mais informações sobre o projeto, entre em contato por e-mail em keoxcoelho@gmail.com.
 
 ------------------------------------------------------------
 
