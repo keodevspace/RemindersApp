@@ -14,6 +14,7 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvime
 <h3>Funcionalidades Extras (Bônus) </h3>
 
 - Testes unitários automatizados para o front-end.
+- •	Utilização de CSS/SCSS modules.
 
 <h3>Estrutura do Projeto</h3>
 
@@ -22,9 +23,6 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvime
 - src: Diretório contendo os arquivos de código-fonte do projeto.
 - js: Diretório contendo o arquivo main.js, responsável pela lógica do sistema.
 - components: Diretório contendo os componentes reutilizáveis do sistema.
-- pages: Diretório contendo os componentes específicos de cada página do sistema.
-- services: Diretório contendo os arquivos responsáveis por interações com a API RESTful (caso opte pela implementação do bônus).
-- Instruções para Executar o Sistema
 
 <h3>Clone o repositório para o seu ambiente local utilizando o comando:</h3>
 
