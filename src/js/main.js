@@ -1,5 +1,5 @@
 // Ola, seja bem-vindo ao meu projeto de Lembretes!
-// Conforme combinado com a recrutadora Nara, meu projeto sere feito no JavaScript puro, sem frameworks ou bibliotecas.
+// Conforme combinado com a recrutadora Nara, meu projeto sere feito no JavaScript
 
 document.addEventListener('DOMContentLoaded', () => {
   const reminderForm = document.getElementById('reminder-form');
@@ -88,3 +88,6 @@ const updatedReminders = savedReminders.filter(
 );
 localStorage.setItem(localStorageKey, JSON.stringify(updatedReminders));
 }
+
+
+
