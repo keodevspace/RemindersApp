@@ -1,6 +1,6 @@
 <h1>Lembretes App - Desenvolvimento Front-end </h1>
 
-Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de Desenvolvimento Front-end. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript puro, HTML e CSS, com a possibilidade de adicionar, listar e remover lembretes.
+Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvimento Front-end. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript puro, HTML e CSS, com a possibilidade de adicionar, listar e remover lembretes.
 
 <h3>Funcionalidades Implementadas</h3>
 
@@ -13,8 +13,13 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de 
 
 <h3>Funcionalidades Extras (Bônus) </h3>
 
+<<<<<<< HEAD
 - Testes unitários automatizados.
 - Utilizado SCSS para mais eficiência e de fácil manutenção da estilização.
+=======
+- Testes unitários automatizados para o front-end.
+- Utilização de CSS/SCSS modules.
+>>>>>>> 66fba8c21a6882649dd8965d973f77bf56045d54
 
 <h3>Estrutura do Projeto</h3>
 
@@ -22,6 +27,10 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de 
 - styles: Diretório contendo o arquivo de estilos CSS e SCSS.
 - src: Diretório contendo os arquivos de código-fonte do projeto.
 - js: Diretório contendo o arquivo main.js, responsável pela lógica do sistema.
+<<<<<<< HEAD
+=======
+- components: Diretório contendo os componentes reutilizáveis do sistema.
+>>>>>>> 66fba8c21a6882649dd8965d973f77bf56045d54
 
 <h3>Clone o repositório para o seu ambiente local utilizando o comando:</h3>
 
