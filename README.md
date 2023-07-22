@@ -1,6 +1,6 @@
 <h1>Lembretes App - Desenvolvimento Front-end </h1>
 
-Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvimento Front-end. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript puro, HTML e CSS, com a possibilidade de adicionar, listar e remover lembretes.
+Este projeto foi desenvolvido como parte de um teste. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript, com a possibilidade de adicionar, listar e remover lembretes.
 
 <h3>Funcionalidades Implementadas</h3>
 
@@ -14,7 +14,7 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvime
 <h3>Funcionalidades Extras (Bônus) </h3>
 
 - Testes unitários automatizados.
-- Utilizado SCSS para mais eficiência e de fácil manutenção da estilização.
+- SCSS para mais eficiência e de fácil manutenção da estilização.
 
 <h3>Estrutura do Projeto</h3>
 
@@ -26,7 +26,7 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de Desenvolvime
 
 <h3>Clone o repositório para o seu ambiente local utilizando o comando:</h3>
 
-- git clone <URL_DO_REPOSITORIO>
+- git clone "https://github.com/keodevspace/LembretesApp"
 - Abra o arquivo index.html no seu navegador web.
 - O sistema estará funcionando e você poderá adicionar, listar e remover lembretes.
 
