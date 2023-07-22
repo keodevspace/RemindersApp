@@ -13,27 +13,35 @@
   </header>
 
   <main>
-    <section id="add-reminder">
-      <h2>Adicionar Lembrete</h2>
-      <form id="reminder-form">
-        <label for="reminder-name">Nome:</label>
-        <input type="text" id="reminder-name" required>
-        
-        <label for="reminder-date">Data:</label>
-        <input type="date" id="reminder-date" required>
-        
-        <button type="submit">Criar</button>
-        <p id="error-message"></p> <!-- error -->
-      </form>
+    <section id="add-reminder" class="card">
+      <h2>Adicionar lembrete</h2>
+      <div class="card-content">
+        <form id="reminder-form">
+          <label for="reminder-name">Nome:</label>
+          <input type="text" id="reminder-name" required>
+  
+          <label for="reminder-date">Data:</label>
+          <input type="date" id="reminder-date" required>
+  
+          <button type="submit">Criar</button>
+          <p id="error-message"></p> <!-- error message -->
+        </form>
+      </div>
     </section>
-
+  
     <section id="reminders-list">
-      <h2>Lista de Lembretes</h2>
+      <h2>Lembretes</h2>
       <div id="reminders-container">
-        <!-- reminders added -->
+        <!-- here is the reminders list -->
       </div>
     </section>
   </main>
+  
   <script src="../src/js/main.js"></script>
 </body>
+
+<footer>
+  <p>&copy; #KeoCoelho 2023</p>
+</footer>
+
 </html>

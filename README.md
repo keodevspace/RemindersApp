@@ -7,24 +7,21 @@ Este projeto foi desenvolvido como parte de um teste para a vaga de estágio de 
 - Adicionar um novo lembrete informando nome e data.
 - Validar os campos "Nome" e "Data" do lembrete antes de adicionar.
 - Exibir mensagens de erro caso os campos não estejam preenchidos corretamente.
-- Exibir a lista de lembretes em ordem cronológica, agrupando-os por dia.
+- Exibir a lista de lembretes em ordem cronológica.
 - Deletar um lembrete ao clicar no botão "x" ao lado dele.
 - Responsividade para diferentes tamanhos de tela (desktop, mobile e tablet).
 
 <h3>Funcionalidades Extras (Bônus) </h3>
 
-- Testes unitários automatizados para o front-end.
+- Testes unitários automatizados.
+- Utilizado SCSS para mais eficiência e de fácil manutenção da estilização.
 
 <h3>Estrutura do Projeto</h3>
 
 - index.html: Página principal do sistema.
-- styles: Diretório contendo o arquivo de estilos CSS (styles.css) para a estilização do projeto.
+- styles: Diretório contendo o arquivo de estilos CSS e SCSS.
 - src: Diretório contendo os arquivos de código-fonte do projeto.
 - js: Diretório contendo o arquivo main.js, responsável pela lógica do sistema.
-- components: Diretório contendo os componentes reutilizáveis do sistema.
-- pages: Diretório contendo os componentes específicos de cada página do sistema.
-- services: Diretório contendo os arquivos responsáveis por interações com a API RESTful (caso opte pela implementação do bônus).
-- Instruções para Executar o Sistema
 
 <h3>Clone o repositório para o seu ambiente local utilizando o comando:</h3>
 
@@ -38,11 +35,11 @@ O projeto foi desenvolvido utilizando apenas JavaScript puro, HTML e CSS, portan
 
 <h3>Autor</h3>
 
-Este projeto foi desenvolvido por keodevspace, Keo Coelho, como parte do teste de Desenvolvimento Front-end.
+Este projeto foi desenvolvido por keodevspace, dev Keo Coelho, como parte do teste de Desenvolvimento Front-end.
 
 <h3>Contato</h3>
 
-Em caso de dúvidas ou mais informações sobre o projeto, entre em contato por e-mail em [keoxcoelho@gmail.com].
+Em caso de dúvidas ou mais informações sobre o projeto, entre em contato por e-mail em keoxcoelho@gmail.com.
 
 ------------------------------------------------------------
 
