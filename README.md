@@ -24,9 +24,10 @@ Este projeto foi desenvolvido como parte de um teste. O objetivo do teste é cri
 - js: Diretório contendo o arquivo main.js, responsável pela lógica do sistema.
 - tests: Diretório contendo os testes do arquivo main.js.
 
-<h3>Clone o repositório para o seu ambiente local utilizando o comando:</h3>
-
-- git clone "https://github.com/keodevspace/LembretesApp"
+<h3>Instruções para execução</h3>
+    
+- Clone o repositório para o seu ambiente local utilizando o comando:
+  - git clone "https://github.com/keodevspace/LembretesApp"
 - Abra o arquivo index.html no seu navegador web.
 - O sistema estará funcionando e você poderá adicionar, listar e remover lembretes.
 
