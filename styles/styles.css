@@ -20,9 +20,9 @@ header {
   color: var(--quaternary-color);
   text-align: center;
   padding: 1rem 0;
-  text-shadow: 0.1rem 0.2rem  rgba(252, 250, 250, 0.2);
+  text-shadow: 0.1rem 0.2rem rgba(252, 250, 250, 0.2);
   text-transform: uppercase;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -30,46 +30,40 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* first container card */
+  /* reminder form list */
 }
-
-/* first container card */
-.card {
+main .card {
   background-color: transparent;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   margin-bottom: 2rem;
 }
-
-.card-content {
+main .card .card-content {
   background-color: var(--quinary-color);
   padding: 1rem;
   border-radius: 8px;
-  opacity: 2.0;
+  opacity: 2;
 }
-
-#add-reminder {
+main #add-reminder {
   max-width: 500px;
   margin: 0 auto;
-  background-color: var(--tertiary-color); 
+  background-color: var(--tertiary-color);
   padding: 1rem;
   border-radius: 8px;
 }
-
-#add-reminder h2 {
+main #add-reminder h2 {
   color: var(--quiary-color);
   margin-bottom: 1rem;
 }
-
-#reminder-form label {
-  color: var(--primary-color); 
+main #add-reminder #reminder-form label {
+  color: var(--primary-color);
 }
-
-#reminder-form input {
-  color: var(--primary-color); 
+main #add-reminder #reminder-form input {
+  color: var(--primary-color);
 }
-
-#reminder-form button {
+main #add-reminder #reminder-form button {
   background-color: var(--quaternary-color);
   color: var(--primary-color);
   font-weight: bold;
@@ -80,28 +74,19 @@ main {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;
 }
-
-#reminder-form button:hover {
-  transform: scale(1.05); 
-}
-
-button:hover {
+main #add-reminder #reminder-form button:hover {
   transform: scale(1.05);
 }
-
-#error-message {
+main #error-message {
   color: rgb(178, 91, 9);
   margin-top: 1rem;
 }
-
-/* reminder form list */
-#reminders-container {
+main #reminders-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.reminder-item {
+main #reminders-container .reminder-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,15 +97,13 @@ button:hover {
   color: var(--primary-color);
   width: 100%;
   word-wrap: break-word;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
-  transition: transform 0.2s ease; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
 }
-
-.reminder-item:hover {
-  transform: scale(1.05); 
+main #reminders-container .reminder-item:hover {
+  transform: scale(1.05);
 }
-
-footer {
+main footer {
   background-color: var(--primary-color);
   color: var(--quaternary-color);
   font-size: 11px;
@@ -133,8 +116,9 @@ footer {
   form {
     max-width: 300px;
   }
-
   .reminder-item {
     font-size: 14px;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
