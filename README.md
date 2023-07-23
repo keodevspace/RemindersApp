@@ -10,6 +10,7 @@ Este projeto foi desenvolvido como parte de um teste. O objetivo do teste é cri
 - Exibir a lista de lembretes em ordem cronológica.
 - Deletar um lembrete ao clicar no botão "x" ao lado dele.
 - Responsividade para diferentes tamanhos de tela (desktop, mobile e tablet).
+- Comentários nos códigos em inglês, para facilitar o entendimento em âmbito internacional.
 
 <h3>Funcionalidades Extras (Bônus) </h3>
 
