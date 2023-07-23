@@ -104,7 +104,7 @@ main #reminders-container .reminder-item {
 main #reminders-container .reminder-item:hover {
   transform: scale(1.05);
 }
-main footer {
+footer {
   background-color: var(--primary-color);
   color: var(--quaternary-color);
   font-size: 11px;
