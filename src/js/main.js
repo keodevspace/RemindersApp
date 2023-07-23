@@ -44,6 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
     savedReminders.push(reminderData);
     savedReminders.sort((a, b) => new Date(a.date) - new Date(b.date)); // Sort reminders by date
     localStorage.setItem(localStorageKey, JSON.stringify(savedReminders));
+
+    // Refresh the reminders list
+    refreshRemindersList();
   });
 
   function addReminderToList(name, date) {
@@ -87,6 +90,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const year = date.getFullYear();
     return `${day}/${month}/${year}`;
   }
+
+  function refreshRemindersList() {
+    // remove all current reminders from the list
+    while (remindersContainer.firstChild) {
+      remindersContainer.removeChild(remindersContainer.firstChild);
+    }
+
+    // add all reminders again from local storage
+    savedReminders.forEach((reminder) => addReminderToList(reminder.name, reminder.date));
+  }
 });
 
 function deleteReminder(deleteButton) {
@@ -96,9 +109,11 @@ function deleteReminder(deleteButton) {
   // remove reminder from local storage
   const localStorageKey = 'lembretes';
   const savedReminders = JSON.parse(localStorage.getItem(localStorageKey)) || [];
-  const reminderName = deleteButton.dataset.name; // get the name of reminder by attribute 'data-name'
+  const reminderName = deleteButton.dataset.name; // get name of reminder by attribute 'data-name'
   const updatedReminders = savedReminders.filter(
     (reminder) => reminder.name !== reminderName
   );
   localStorage.setItem(localStorageKey, JSON.stringify(updatedReminders));
+
+  alert('O lembrete foi excluído!');
 }
