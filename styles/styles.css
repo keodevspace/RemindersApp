@@ -99,6 +99,7 @@ main #reminders-container .reminder-item {
   word-wrap: break-word;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;
+  cursor: pointer;
 }
 main #reminders-container .reminder-item:hover {
   transform: scale(1.05);
