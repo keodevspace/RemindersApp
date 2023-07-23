@@ -16,17 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const reminderName = document.getElementById('reminder-name').value;
     const reminderDate = document.getElementById('reminder-date').value;
 
-    // validate if the "Lembrete" field is filled in
+    // validate if "Lembrete" field is filled in
     if (!reminderName) {
       errorMessage.textContent = 'Preencha o campo "Lembrete" para continuar.';
       return;
     }
 
-    // validate that the "Data" field is filled and is a valid date in the future
-    const currentDate = new Date(); // Fix: Get the current date
+    // validate that "Data" field is filled and is a valid date in future
+    const currentDate = new Date(); // get current date
     const selectedDate = new Date(reminderDate);
 
-    // Add one day to the selected date
+    // Add one day to selected date
     selectedDate.setDate(selectedDate.getDate() + 1);
 
     if (!reminderDate || selectedDate <= currentDate) {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // if the fields are valid, clear the error message and add the reminder
+    // if fields are valid, clear error message and add reminder
     errorMessage.textContent = '';
     addReminderToList(reminderName, selectedDate);
     reminderForm.reset();
@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
       <span class="delete-btn" onclick="deleteReminder(this)" data-name="${name}">x</span>
     `;
 
-    // Find the correct position to insert the new reminder
-    const currentDate = new Date(); // Fix: Get the current date
+    // find correct position to insert new reminder
+    const currentDate = new Date(); // get current date
     const selectedDate = new Date(date);
     const reminderItems = remindersContainer.getElementsByClassName('reminder-item');
     let insertIndex = 0;
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
       insertIndex++;
     }
 
-    // Insert the new reminder at the correct position
+    // insert new reminder at correct position
     if (insertIndex === reminderItems.length) {
       remindersContainer.appendChild(reminderItem);
     } else {
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // function to format date in the pattern dd/mm/aaaa
+  // function to format date in pattern dd/mm/aaaa
   function formatDate(dateString) {
     const date = new Date(dateString);
     const day = date.getDate().toString().padStart(2, '0');
