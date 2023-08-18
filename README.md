@@ -1,49 +1,49 @@
-<h1>Lembretes App - Desenvolvimento Front-end </h1>
+## Reminders App - Front-End Development
 
-Este projeto foi desenvolvido como parte de um teste. O objetivo do teste é criar um sistema de criação de lembretes utilizando JavaScript, com a possibilidade de adicionar, listar e remover lembretes.
+This project was developed as part of a test. The goal of the test is to create a reminder creation system using JavaScript, with the ability to add, list, and remove reminders.
 
-<h3>Funcionalidades Implementadas</h3>
+## Implemented Features
 
-- Adicionar um novo lembrete informando nome e data.
-- Validar os campos "Nome" e "Data" do lembrete antes de adicionar.
-- Exibir mensagens de erro caso os campos não estejam preenchidos corretamente.
-- Exibir a lista de lembretes em ordem cronológica.
-- Deletar um lembrete ao clicar no botão "x" ao lado dele.
-- Responsividade para diferentes tamanhos de tela (desktop, mobile e tablet).
-- Comentários nos códigos em inglês, para facilitar o entendimento em âmbito internacional.
+- Add a new reminder by providing a name and date.
+- Validate the "Name" and "Date" fields of the reminder before adding.
+- Display error messages if the fields are not filled correctly.
+- Display the list of reminders in chronological order.
+- Delete a reminder by clicking the "x" button next to it.
+- Responsiveness for different screen sizes (desktop, mobile, and tablet).
+- Comments in English within the code for international understanding.
 
-<h3>Funcionalidades Extras (Bônus) </h3>
+## Extra Features (Bonuses)
 
-- Testes unitários automatizados.
-- SCSS para mais eficiência e de fácil manutenção da estilização.
+- Automated unit tests.
+- SCSS for more efficient and maintainable styling.
 
-<h3>Estrutura do Projeto</h3>
+## Project Structure
 
-- index.html: Página principal do sistema.
-- styles: Diretório contendo o arquivo de estilos CSS e SCSS.
-- src: Diretório contendo os arquivos de código-fonte do projeto.
-- js: Diretório contendo o arquivo main.js, responsável pela lógica do sistema.
-- tests: Diretório contendo os testes do arquivo main.js.
+- `index.html`: Main page of the system.
+- `styles`: Directory containing the CSS and SCSS style files.
+- `src`: Directory containing project source code files.
+- `js`: Directory containing `main.js`, responsible for the system's logic.
+- `tests`: Directory containing tests for `main.js`.
 
-<h3>Instruções para execução</h3>
-    
-- Clone o repositório para o seu ambiente local utilizando o comando:
-  - git clone "https://github.com/keodevspace/LembretesApp"
-- Abra o arquivo index.html no seu navegador web.
-- O sistema estará funcionando e você poderá adicionar, listar e remover lembretes.
+## Execution Instructions
 
-<h3>Dependências</h3>
+- Clone the repository to your local environment using the command:
+  - `git clone "https://github.com/keodevspace/LembretesApp"`
+- Open the `index.html` file in your web browser.
+- The system will be operational, and you can add, list, and remove reminders.
 
-O projeto foi desenvolvido utilizando apenas JavaScript puro, HTML e CSS, portanto, não são necessárias dependências adicionais.
+## Dependencies
 
-<h3>Autor</h3>
+The project was developed using only pure JavaScript, HTML, and CSS. Therefore, no additional dependencies are required.
 
-Este projeto foi desenvolvido por keodevspace, dev Keo Coelho, como parte do teste de Desenvolvimento Front-end.
+## Author
 
-<h3>Contato</h3>
+This project was developed by keodevspace, dev Keo Coelho, as part of the Front-End Development test.
 
-Em caso de dúvidas ou mais informações sobre o projeto, entre em contato por e-mail em keoxcoelho@gmail.com.
+## Contact
+
+For questions or more information about the project, please contact via email at keoxcoelho@gmail.com.
 
 ------------------------------------------------------------
 
-<h2>Obrigado por acessar meu projeto.🤓</h2> 
+## Thank you for checking out my project. 🤓
